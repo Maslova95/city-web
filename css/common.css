@@ -9,6 +9,7 @@
 :root {
     --title-font: 'Frank Ruhl Libre', serif;
     --text-font: 'Open Sans', sans-serif;
+    --header-text-color: rgb(255, 255, 255);
 }
 
 img {
@@ -24,4 +25,6 @@ img {
 
 h1 {
     font-family: var(--title-font);
+    color: var();
+    font-size: bold;
 }

@@ -1,0 +1,13 @@
+.background {
+    background-image: url(../img/background.webp);
+}
+.social-icons {
+    display: flex;
+    text-align: left;
+    width: 40px;
+}
+
+.header-list__icons {
+    width: 1.58rem;
+    margin-right: 0.7rem;
+}
