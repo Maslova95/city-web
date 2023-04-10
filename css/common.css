@@ -26,5 +26,5 @@ img {
 h1 {
     font-family: var(--title-font);
     color: var();
-    font-size: bold;
+    font-size: 55px;
 }

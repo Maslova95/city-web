@@ -1,13 +1,61 @@
 .background {
     background-image: url(../img/background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1200px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/background.webp);
+  }
+
+.header__bloc {
+    display: flex;
+}
+.header-logo {
+    width: 180px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.header__wrapper {
+    display: flex;
+    padding-left: 300px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.header__link {
+    padding-top: 50px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: var(--text-font);
+    color: white;
 }
 .social-icons {
+    color: white;
+    width: 100px;
     display: flex;
-    text-align: left;
-    width: 40px;
 }
 
+.social-icon img {
+    filter: brightness(0) invert(1);
+    border: 1px solid white;
+  }  
+
+.social-icon{
+    margin-right: 10px;
+  }
 .header-list__icons {
     width: 1.58rem;
     margin-right: 0.7rem;
+}
+.header-list__species img {
+    filter: brightness(0) invert(1);
+}
+
+.header-section {
+    color: white;
+    padding-left: 20px;
+}
+
+.divider-element {
+    height: 2px;
+    width: 80%;
+    background-color:white 
 }
